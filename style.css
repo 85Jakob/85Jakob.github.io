@@ -1,7 +1,188 @@
-.header{
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+header{
+    height: 100px;
+    background: black;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+    color: pink;
+    letter-spacing: 5px;
+}
+
+nav{ 
+    line-height: 100px;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 0 10px;
+    color:pink;
+    
+}
+
+.am:hover a{
+    background-color: pink;
+    color: black;
+    letter-spacing: 0px;
+    font-weight: bold;
+
+} 
+.am{ 
+    height: 100px;
+    width: 150px;
+    float: Left;
+   
+    
+}
+.am:hover{
+    background-color: pink;
+    color: black;
+}
+
+
+.banner-area{
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    top: 100px;
+    background-color: pink;
+}
+.banner-area h2{
+    padding-top: 5px;
+    font-size: 70px;
+    font-family: 'Changa One', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    text-shadow: -8px 6px #111827;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: pink;
+
+}
+.banner-area h2 {
+    text-shadow: -2px 0px #111827, 0px -2px #111827, 2px 0px #111827, 0px 2px #111827, 2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827, -10px 6px #111827;
+  }
+
+.profile{
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: -5px 0px #111827, 0px -5px #111827, 5px 0px #111827, 0px 5px #111827, 5px 5px #111827, -5px -5px #111827, -5px 5px #111827, 5px -5px #111827;
+
+
+}
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 650px;
+    background-image:linear-gradient(to bottom, pink, crimson);
+    height: 1500px;
+    
+}
+
+.content-area h2{
+    font-family: monospace;
+    letter-spacing: 3px;
+    padding-top: 3px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.content-area p{
+    padding: 2% 0;
+    font-family: courier;
+    line-height: 30px;
+
+}
+
+
+.leftalign{
+    display: inline;
+    float: left;
+}
+.rightalign{
+   display: inline;
+   float: right;
+}
+.leftalign2{
+    clear:both;
+    display: inline;
+    float: left;
+
+    
+}
+.rightalign2{
+   display: inline;
+   float: right;
+  
+}
+.employment{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 3%;
+}
+.education{
+    margin-top: 10px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 3%;
+}
+.training{
+    margin-top: 10px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 3%;
+}
+ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear:both;
+    text-align: left;
+}
+
+.title{
 	padding: 60px;
+	padding-top: 100px;
 	text-align: center;
 	background: #labc9c;
 	color: black;
 	font-size: 30px;
 }
+
