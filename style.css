@@ -57,7 +57,10 @@ nav a{
     color:pink;
     
 }
-
+.am a{
+    display: block;
+    width: 100%;
+}
 .am:hover a{
     background-color: pink;
     color: black;
@@ -69,7 +72,6 @@ nav a{
     height: 100px;
     width: 150px;
     float: Left;
-   
     
 }
 .am:hover{
@@ -109,6 +111,7 @@ nav a{
 
 .content-area{
     width: 100%;
+    height: 100%;
     position: relative;
     top: 200px;
     background-image:linear-gradient(to bottom,lightgray, pink);
@@ -217,4 +220,32 @@ img{
 }
 .blurb{
     text-align: left;
+}
+
+.pill-border{
+    margin: auto;
+    width: 25%;
+    height: 55px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.pill-border a{
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    float: right;
+    display: block;
+}
+
+.pill-border:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.pill-border:hover{
+    opacity: 0.5;
 }
