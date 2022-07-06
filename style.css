@@ -34,7 +34,7 @@ header{
     text-decoration: none;
     font-size: 30px;
     font-family: monospace;
-    color: pink;
+    color: cyan;
     letter-spacing: 5px;
 }
 
@@ -54,7 +54,7 @@ nav a{
     letter-spacing: 3px;
     font-size: 20px;
     margin: 0 10px;
-    color:pink;
+    color:cyan;
     
 }
 .am a{
@@ -62,7 +62,7 @@ nav a{
     width: 100%;
 }
 .am:hover a{
-    background-color: pink;
+    background-color: cyan;
     color: black;
     letter-spacing: 0px;
     font-weight: bold;
@@ -75,7 +75,7 @@ nav a{
     
 }
 .am:hover{
-    background-color: pink;
+    background-color: cyan;
     color: black;
 }
 
@@ -94,7 +94,7 @@ nav a{
     text-shadow: -8px 6px #111827;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: pink;
+    color: cyan;
 
 }
 .banner-area h2 {
@@ -114,7 +114,7 @@ nav a{
     height: 100%;
     position: relative;
     top: 200px;
-    background-image:linear-gradient(to bottom,lightgray, pink);
+    background-image:linear-gradient(to bottom,lightgray, cyan);
     
 }
 
