@@ -34,7 +34,7 @@ header{
     text-decoration: none;
     font-size: 30px;
     font-family: monospace;
-    color: cyan;
+    color: seagreen;
     letter-spacing: 5px;
 }
 
@@ -62,7 +62,7 @@ nav a{
     width: 100%;
 }
 .am:hover a{
-    background-color: cyan;
+    background-color: seagreen;
     color: black;
     letter-spacing: 0px;
     font-weight: bold;
@@ -75,7 +75,7 @@ nav a{
     
 }
 .am:hover{
-    background-color: cyan;
+    background-color: seagreen;
     color: black;
 }
 
@@ -94,7 +94,7 @@ nav a{
     text-shadow: -8px 6px #111827;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: cyan;
+    color: seagreen;
 
 }
 .banner-area h2 {
@@ -114,7 +114,7 @@ nav a{
     height: 100%;
     position: relative;
     top: 200px;
-    background-image:linear-gradient(to bottom,lightgray, cyan);
+    background-image:linear-gradient(to bottom,lightgray, seagreen);
     
 }
 
@@ -188,7 +188,7 @@ ul{
 	text-align: center;
 	color: black;
 	font-size: 30px; 
-    background-image:linear-gradient(to bottom,lightgray, cyan);
+    background-image:linear-gradient(to bottom,lightgray, seagreen);
 }
 
 .title h2{
@@ -198,7 +198,7 @@ ul{
     text-shadow: -8px 6px #111827;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: cyan;
+    color: seagreen;
 
 }
 .title h2 {
