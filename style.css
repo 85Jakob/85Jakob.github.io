@@ -188,7 +188,7 @@ ul{
 	text-align: center;
 	color: black;
 	font-size: 30px; 
-    background-image:linear-gradient(to bottom,lightgray, pink);
+    background-image:linear-gradient(to bottom,lightgray, cyan);
 }
 
 .title h2{
@@ -198,7 +198,7 @@ ul{
     text-shadow: -8px 6px #111827;
     letter-spacing: 10px;
     text-transform: uppercase;
-    color: pink;
+    color: cyan;
 
 }
 .title h2 {
