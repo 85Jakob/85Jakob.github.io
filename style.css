@@ -272,8 +272,8 @@ img{
     .blurb{font-size: 15px}
     img{ height:175px; }
     nav { line-height: 50px;}
-    nav a{ font-size: 15px;
-        margin: 0 0px}
-    .am{ height: 50px;}
+    nav a{ font-size: 15px;}
+    .am{ height: 50px;
+        width:120px;}
     header{height: 50px;}
 }
