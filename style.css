@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-html, body{ 
+html, body{
     height: 100%;
     text-align: center;
 }
 
 .wrapper{
-    width: 1170px;
+    width: 100%;
     margin: 0px auto;
     padding: 0px;
 }
@@ -38,14 +38,12 @@ header{
     letter-spacing: 5px;
 }
 
-nav{ 
+nav{
     line-height: 100px;
     float: right;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: black;
-
-    
 }
 
 nav a{
@@ -155,21 +153,26 @@ nav a{
   
 }
 .employment{
-    width: 100%;
+    width: 75%;
+    margin: auto;
     background-color: whitesmoke;
     border-radius: 25px;
     padding: 3%;
 }
 .education{
     margin-top: 10px;
-    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    width: 75%;
     background-color: whitesmoke;
     border-radius: 25px;
     padding: 3%;
 }
 .training{
     margin-top: 10px;
-    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    width: 75%;
     background-color: whitesmoke;
     border-radius: 25px;
     padding: 3%;
@@ -224,7 +227,7 @@ img{
 
 .pill-border{
     margin: auto;
-    width: 25%;
+    width: 330px;
     height: 55px;
     background-color: whitesmoke;
     border-radius: 25px;
@@ -248,4 +251,16 @@ img{
 
 .pill-border:hover{
     opacity: 0.5;
+}
+
+
+@media (max-width: 960px) {
+    nav{position: fixed;}
+    
+    .logo a{display: none;}
+    .banner-area{position: relative;
+       height:200px;
+       bottom: 0px;
+    }
+    .content-area{top: 100px}
 }
