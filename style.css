@@ -255,10 +255,11 @@ img{
 
 
 @media (max-width: 960px) {
-    nav{position: fixed;}
-    
+    nav{position: fixed;
+        line-height:50px}
     .logo a{display: none;}
-    .banner-area{position: relative;
+    .banner-area{
+       position: relative;
        height:150px;
        bottom: 100px;
        top: 50px;
@@ -266,15 +267,16 @@ img{
     .banner-area h2{ font-size: 45px;}
     .title h2{ font-size: 45px;}
     .content-area{top: 50px}
-    .blurbdiv{width: 100%;
+    .blurbdiv{
+        width: 100%;
         height: 100%;
         padding-bottom: 350px;
         }
     .blurb{font-size: 15px}
-    img{ height:175px; }
-    nav { line-height: 50px;}
-    nav a{ font-size: 18px;}
-    .am{ height: 50px;
+    img{ height:200px; }
+    nav a{ font-size: 20px;}
+    .am{ 
+        height: 50px;
         width:120px;}
     header{height: 50px;}
     .rightalign{
