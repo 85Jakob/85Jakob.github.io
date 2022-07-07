@@ -262,5 +262,9 @@ img{
        height:200px;
        bottom: 0px;
     }
+    .banner-area h2{ font-size: 45px;}
+    .title h2{ font-size: 45px;}
     .content-area{top: 100px}
+    .blurbdiv{width: 100%}
+    img{ height:175px; }
 }
