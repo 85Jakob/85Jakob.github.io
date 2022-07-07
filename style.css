@@ -259,12 +259,13 @@ img{
     
     .logo a{display: none;}
     .banner-area{position: relative;
-       height:200px;
-       bottom: 0px;
+       height:150px;
+       bottom: 100px;
+       top: 50px;
     }
     .banner-area h2{ font-size: 45px;}
     .title h2{ font-size: 45px;}
-    .content-area{top: 100px}
+    .content-area{top: 50px}
     .blurbdiv{width: 100%;
         height: 100%;
         padding-bottom: 350px;
@@ -272,8 +273,26 @@ img{
     .blurb{font-size: 15px}
     img{ height:175px; }
     nav { line-height: 50px;}
-    nav a{ font-size: 15px;}
+    nav a{ font-size: 18px;}
     .am{ height: 50px;
         width:120px;}
     header{height: 50px;}
+    .rightalign{
+        clear: both;
+        float:left;
+        display: block;}
+    .leftalign{
+        clear:both;
+        float: left;
+        display: block;}
+    .rightalign2{
+        clear: both;
+        float:left;
+        display: block;
+     }
+    .leftalign2{
+        clear: both;
+        float: left;
+        display: block;
+        text-align: left;}
 }
