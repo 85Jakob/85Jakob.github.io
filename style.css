@@ -218,7 +218,7 @@ img{
     margin: auto;
     width: 30%;
     height: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 
 }
 .blurb{
@@ -265,6 +265,14 @@ img{
     .banner-area h2{ font-size: 45px;}
     .title h2{ font-size: 45px;}
     .content-area{top: 100px}
-    .blurbdiv{width: 100%}
+    .blurbdiv{width: 100%;
+        height: 100%;
+        padding-bottom: 350px;
+        }
+    .blurb{font-size: 12px}
     img{ height:175px; }
+    nav { line-height: 50px;}
+    nav a{ font-size: 15px}
+    .am{ height: 50px;}
+    header{height: 50px;}
 }
